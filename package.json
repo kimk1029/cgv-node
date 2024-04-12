@@ -1,0 +1,19 @@
+{
+  "name": "cgv-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "tsc && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/puppeteer": "^7.0.4",
+    "puppeteer": "^22.6.1",
+    "typescript": "^5.4.3"
+  }
+}
